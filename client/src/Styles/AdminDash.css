@@ -1,0 +1,109 @@
+.Admin-Dashboard {
+  background: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7));
+  color: #fff;
+}
+
+.user-head {
+  color: #fff;
+}
+
+.btn {
+  color: #8472c4;
+
+}
+
+
+.home-bannerImage-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.home-bannerImage-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.top-right-image {
+  margin-left: 2;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.admin-info {
+  text-align: center;
+}
+
+.user-head {
+  font-size: 54px;
+  margin-bottom: 10px;
+}
+
+.admin-btn {
+  margin-top: 20px;
+}
+
+.history-head {
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-family: 'Cursive', sans-serif;
+  color: #190c2a;
+  font-weight: bold;
+}
+
+.admin-btn-grp {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn,
+.btn-primary {
+  background-color: #e64a19;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover,
+.btn-primary1:hover {
+  background-color: yellow;
+}
+
+.btn-primary1 {
+  margin-left: 10px;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  font-weight: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border: transparent;
+  text-align: left;
+}
+
+.table td {
+  background: transparent;
+}
+
+.table th {
+  background: transparent;
+}
+
+.admin-history {
+  margin-top: 20px;
+}

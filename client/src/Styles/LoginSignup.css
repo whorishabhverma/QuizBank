@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+.Login-main {
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)), url('../Assets/wallpaper.avif') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 89vh;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    color: #8472c4;
+}
+
+.Login-main .h2 {
+    color: #8472c4;
+}
+
+.home-bannerImage-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;
+    max-width: 700px;
+}
+
+.body {
+    margin-left: 37%;
+    margin-top: 8%;
+}
+
+.auth-form-container {
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.auth-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200%;
+    height: 500px;
+    flex-direction: column;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4px;
+}
+
+input {
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-top: 2px solid transparent;
+}
+
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: #f05908;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #22092c, 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-30:hover {
+    box-shadow: rgba(223, 238, 6, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #22092c 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+select {
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-top: 2px solid transparent;
+}

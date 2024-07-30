@@ -1,0 +1,92 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quiz-detail {
+  margin-top: 20px;
+  padding: 24px;
+  background: transparent;
+  border: transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+  margin-left: 10px;
+  color: cyan;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.quiz-name {
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.quiz-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.quiz-info {
+  flex: 1;
+  text-align: center;
+}
+
+.quiz-info label {
+  font-weight: bold;
+  color: #555;
+}
+
+.quest-detail {
+  margin-top: 20px;
+}
+
+.questions-detail {
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ques-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.ques-options {
+  margin-top: 15px;
+}
+
+.option-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.op-txt {
+  margin-left: 15px;
+}
+
+.correct-ans {
+  margin-top: 15px;
+  font-style: italic;
+  font-weight: bold;
+  /* color: green; */
+}
+
+.user-detail-attempted {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#table-history tbody tr {
+  background-color: #fff;
+}
